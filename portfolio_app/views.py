@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def hello_world(request):
-    return render(request, 'hello_world.html',{})
+def landing_page(request):
+    return render(request, 'landing_page.html',{})
     
 # Create your views here.

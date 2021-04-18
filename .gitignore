@@ -1,5 +1,11 @@
-__pycache__/
+/Portfolio/__pycache__
+
+/portfolio_app/__pycache__/
+
+/portfolio_app/migrations
 
 /images
 
 db.sqlite3
+
+.env

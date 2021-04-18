@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import environ
+
+env = environ.Env()
+environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qp@6i3fag(hl0q_mzrkmax0ec3+_92a!ndn2_)*hq1ns@%f^dq'
+SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -76,12 +80,6 @@ WSGI_APPLICATION = 'Portfolio.wsgi.application'
 
 #DATABASES = {
 #    'default': {
-#        'ENGINE': 'django.db.backends.postgresql',
-#        'NAME': 'rpffzdzk',
-#        'USER': 'rpffzdzk',
-#        'PASSWORD': 'qM0PF2COL_ICqIuRtzZ08XarfAH6ev9d',
-#        'HOST': 'motty.db.elephantsql.com',
-#        'PORT': '5432'
 #    }
 #}
 
