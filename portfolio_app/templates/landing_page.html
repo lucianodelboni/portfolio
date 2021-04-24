@@ -4,14 +4,41 @@
 {% block head %}
    
   <!--CSS Styles link-->
-  <link rel="stylesheet" href="{% static 'CSS/styles.css' %}">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 
 {% endblock %}
 
 {% block body %}
 
+  <div class="part1 container-fluid" id="part1">
+    <div class="greetings__text">
+      <h1>Hi, I'm Luciano.</h3>
+      <h5>A full-stack web developer.</h6>
+    </div>
+    <div class="moving__arrows">
+      <a href="#part2">Go to part 2</a>
+    </div>
+  </div>
 
-    
+  <div class="part2" id="part2">
+    <p>This</p>
+    <br>
+    <br>
+    <p>is</p>
+    <br>
+    <br>
+    <p>part 2</p>
+  </div>
+
+  <div class="part3" id="part3">
+    <p>This</p>
+    <br>
+    <br>
+    <p>is</p>
+    <br>
+    <br>
+    <p>part 3</p>
+  </div>
 
     
 {% endblock %}
