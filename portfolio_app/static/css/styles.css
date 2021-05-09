@@ -42,10 +42,11 @@ body{
 }
 
 #three__arrows {
-    fill: hsl(0,0%,15%));
+    fill: hsl(0,0%,15%);
     width: 75px;
     height: 65px;
 }
+
 #three__arrows:hover polygon {
     fill: hsl(0,0%,15%);
     transition: all 0.2s ease-out;
@@ -57,7 +58,7 @@ body{
     transform: translateY(18px);
 }
 
-}
+
 polygon {
     fill: hsl(0,0%,15%);
     transition: all .2s ease-out;
