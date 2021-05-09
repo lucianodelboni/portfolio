@@ -5,7 +5,7 @@ html{
 
 *{
     font-family: 'Noto Sans';
-    color: hsl(0,0%,15%);
+    color: hsl(0,0%,90%);
 }
 
 /*body styling*/
@@ -20,7 +20,7 @@ body{
 .part1{    
     width: 100%;
     height: 45rem;
-    background: url('../images/landing.webp');
+    background: url('../images/landing3.webp');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
@@ -36,19 +36,19 @@ body{
 
 .arrows__animation{
     position: absolute;
-    left: 47.5%;
+    left: 50%;
     top: 40rem;
     transform: translate(-50%, -50%);
 }
 
 #three__arrows {
-    fill: hsl(0,0%,15%);
+    fill: hsl(0,0%,90%);
     width: 75px;
     height: 65px;
 }
 
 #three__arrows:hover polygon {
-    fill: hsl(0,0%,15%);
+    fill: hsl(0,0%,90%);
     transition: all 0.2s ease-out;
 }
 #three__arrows:hover polygon.arrow__bottom {
@@ -58,10 +58,9 @@ body{
     transform: translateY(18px);
 }
 
-
 polygon {
-    fill: hsl(0,0%,15%);
-    transition: all .2s ease-out;
+    fill: hsl(0,0%,90%);
+    transition: all 0.2s ease-out;
 }
 
 polygon.arrow__middle{
@@ -69,5 +68,24 @@ polygon.arrow__middle{
 }
 
 polygon.arrow__top{
-    opacity:0.5;
+    opacity: 0.5;
+}
+
+.part2{
+    width: 100%;
+    height: 45rem;
+    background: linear-gradient(45deg, hsl(0,0%,25%),hsl(0,0%,35%));
+    background-blend-mode: multiply;
+    background-size: auto;
+    margin: 0px;
+}
+
+.part2>h1{
+    padding: 2rem 0rem 5rem 6rem;
+    font-weight: bolder;
+}
+
+#about__box{
+    width:40%;
+    text-align:justify;
 }
