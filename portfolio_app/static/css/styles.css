@@ -1,24 +1,26 @@
+/*general styling*/
 html{
     scroll-behavior: smooth;
 }
 
 *{
     font-family: 'Noto Sans';
-    color: ivory;
+    color: hsl(0,0%,15%);
+}
+
+/*body styling*/
+body{
+    background-color: hsl(0,0%,25%);
 }
 
 .navbar-nav{
     font-weight: bold;
 }
 
-body{
-    background-color: hsl(0,0%,25%);
-}
-
 .part1{    
     width: 100%;
     height: 45rem;
-    background: url('../images/landing3.webp');
+    background: url('../images/landing.webp');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
@@ -32,8 +34,39 @@ body{
     font-weight: bold;
 }
 
-#moving__arrows{
-    display: flex;
-    align-items: center;
-    padding: 3rem 0rem;
+.arrows__animation{
+    position: absolute;
+    left: 47.5%;
+    top: 40rem;
+    transform: translate(-50%, -50%);
+}
+
+#three__arrows {
+    fill: hsl(0,0%,15%));
+    width: 75px;
+    height: 65px;
+}
+#three__arrows:hover polygon {
+    fill: hsl(0,0%,15%);
+    transition: all 0.2s ease-out;
+}
+#three__arrows:hover polygon.arrow__bottom {
+    transform: translateY(-18px);
+}
+#three__arrows:hover polygon.arrow__top {
+    transform: translateY(18px);
+}
+
+}
+polygon {
+    fill: hsl(0,0%,15%);
+    transition: all .2s ease-out;
+}
+
+polygon.arrow__middle{
+    opacity: 0.75;
+}
+
+polygon.arrow__top{
+    opacity:0.5;
 }
