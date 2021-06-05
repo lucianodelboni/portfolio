@@ -23,6 +23,7 @@ body{
     background: url('../images/landing3.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:center;
     margin: 0px;
 }
 
@@ -100,7 +101,7 @@ polygon.arrow__top{
     opacity: 0.5;
 }
 
-.aboutme{
+#aboutme{
     width: 100%;
     height: 47rem;
     background: url('../images/aboutme_bcg.png');
@@ -109,7 +110,7 @@ polygon.arrow__top{
     margin: 0px;
 }
 
-.aboutme>h1{
+.section_title>h1{
     padding: 2rem 0rem 5rem 6rem;
     font-weight: bolder;
 }
