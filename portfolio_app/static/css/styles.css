@@ -47,21 +47,21 @@ body{
 .arrows__animation{
     position: absolute;
     left: 50%;
-    top: 43rem;
+    top: 580px;
     transform: translate(-50%, -50%);
 }
 
 .arrows__animation2{
     position: absolute;
     left: 50%;
-    top: 90rem;
+    top: 1200px;
     transform: translate(-50%, -50%);
 }
 
 .arrows__animation3{
     position: absolute;
     left: 50%;
-    top: 137rem;
+    top: 1830px;
     transform: translate(-50%, -50%);
 }
 
@@ -100,10 +100,10 @@ polygon.arrow__top{
 
 #aboutme{
     width: 100%;
-    height: 47rem;
+    height: 39rem;
     background: url('../images/aboutme_bcg.png');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     margin: 0px;
 }
 
@@ -119,7 +119,7 @@ polygon.arrow__top{
 
 #portfolio{
     width: 100%;
-    height: 47rem;
+    height: 39rem;
     margin: 0px;
 }
 
@@ -136,7 +136,7 @@ polygon.arrow__top{
 
 .contact{
     width: 100%;
-    height: 47rem;
+    height: 39rem;
     background: url('../images/part2bckg.png');
     background-repeat: no-repeat;
     background-size: auto;
