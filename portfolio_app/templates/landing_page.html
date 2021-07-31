@@ -19,13 +19,13 @@
                         <a class="nav-link"  href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#aboutme">About</a>
+                        <a class="nav-link" onclick="return scrollToContact('#aboutme')">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" onclick="return scrollToContact('#portfolio')">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" onclick="return scrollToContact('#contact')">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -43,7 +43,7 @@
       <!--animated arrows for moving down-->
       <div>
         <div class="moving__arrows">
-          <a href="#aboutme">
+          <a onclick="return scrollToContact('#aboutme')">
             <div class="container">
               <div class="arrows__animation">
                 <svg id="three__arrows">
@@ -77,7 +77,7 @@
       </div>
       <div>
         <div class="moving__arrows">
-          <a href="#portfolio">
+          <a onclick="return scrollToContact('#portfolio')">
             <div class="container">
               <div class="arrows__animation2">
                 <svg id="three__arrows">
@@ -136,7 +136,7 @@
         </div>
       </div>
         <div class="moving__arrows">
-          <a href="#contact">
+          <a onclick="return scrollToContact('#contact')">
             <div class="container">
               <div class="arrows__animation3">
                 <svg id="three__arrows">
@@ -162,5 +162,12 @@
     </div>
     
   </div><!--closing main-->
+
+  <script>
+    function scrollToContact(section){
+      document.querySelector(section).scrollIntoView({
+        })
+      }
+  </script>
     
 {% endblock %}
