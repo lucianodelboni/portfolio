@@ -108,7 +108,7 @@ polygon.arrow__top{
 }
 
 .section_title>h1{
-    padding: 4rem 0rem 2rem 6rem;
+    padding: 3rem 0rem 1rem 5rem;
     font-weight: bolder;
 }
 
@@ -125,14 +125,13 @@ polygon.arrow__top{
 }
 
 .carousel {
-    width: 800px;
-    height:400px;
+    width: 720px;
+    height: 360px;
 }
 
-  .carousel__wrapper{
-    height: 100%;
-    padding: 0% 22%;
-}
+  .carousel-caption{
+    padding-bottom: 10px;
+  }
 
 
 #contact{
@@ -147,7 +146,22 @@ polygon.arrow__top{
 
 /* For mobile compatibility*/
 @media (max-width: 768px){
-    
+
+
+    .carousel{
+        width: 320px;
+        height: 160px;
+    }
+
+    .carousel__wrapper{
+        padding: 3rem 0rem;
+    }
+
+    .section_title>h1{
+        padding: 2rem 0rem 2rem 1rem;
+        font-weight: bolder;
+    }
+
     .moving__arrows{
         visibility: hidden;
     }
@@ -155,6 +169,7 @@ polygon.arrow__top{
     #landing, #aboutme, #portfolio, #contact{
         height: 47rem;
     }
+
     #about__box{
         width: 100%;
         text-align: justify;
