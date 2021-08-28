@@ -19,13 +19,13 @@
                         <a class="nav-link"  href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="return scrollToContact('#aboutme')">About</a>
+                        <a class="nav-link" onclick="return ScrollToSection('#aboutme')">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="return scrollToContact('#portfolio')">Portfolio</a>
+                        <a class="nav-link" onclick="return ScrollToSection('#portfolio')">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="return scrollToContact('#contact')">Contact</a>
+                        <a class="nav-link" onclick="return ScrollToSection('#contact')">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -43,7 +43,7 @@
       <!--animated arrows for moving down-->
       <div>
         <div class="moving__arrows">
-          <a onclick="return scrollToContact('#aboutme')">
+          <a onclick="return ScrollToSection('#aboutme')">
             <div class="container">
               <div class="arrows__animation">
                 <svg id="three__arrows">
@@ -75,7 +75,7 @@
       </div>
       <div>
         <div class="moving__arrows">
-          <a onclick="return scrollToContact('#portfolio')">
+          <a onclick="return ScrollToSection('#portfolio')">
             <div class="container">
               <div class="arrows__animation2">
                 <svg id="three__arrows">
@@ -134,7 +134,7 @@
         </div>
       </div>
         <div class="moving__arrows">
-          <a onclick="return scrollToContact('#contact')">
+          <a onclick="return ScrollToSection('#contact')">
             <div class="container">
               <div class="arrows__animation3">
                 <svg id="three__arrows">
@@ -149,20 +149,23 @@
     </div>
 
     <!--Fourth Part - Contact-->
-    <div class="contact" id="contact">
-      <p>This</p>
-      <br>
-      <br>
-      <p>is</p>
-      <br>
-      <br>
-      <p>part 4</p>
+    <div class="section_title" id="contact">
+      <h1>CONTACT</h1>
+        <img src="..images/landing.webp"></i>
+        <i class="github__icon"></i>
+        <p>This</p>
+        <br>
+        <br>
+        <p>is</p>
+        <br>
+        <br>
+        <p>part 4</p>
     </div>
     
   </div><!--closing main-->
 
   <script>
-    function scrollToContact(section){
+    function ScrollToSection(section){
       document.querySelector(section).scrollIntoView({
         })
       }
