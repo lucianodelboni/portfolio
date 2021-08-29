@@ -143,6 +143,15 @@ polygon.arrow__top{
     margin: 0px;
 }
 
+.icon{
+    filter: invert(1);
+}
+
+.icon:hover{
+    transition: 0.6s;
+    filter: invert(1) sepia(1) saturate(10.5) hue-rotate(108deg) brightness(1);
+}
+
 
 /* For mobile compatibility*/
 @media (max-width: 768px){
