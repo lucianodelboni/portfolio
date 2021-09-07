@@ -16,7 +16,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link"  href="#">Home</a>
+                        <a class="nav-link"  onclick="return ScrollToSection('#landing')">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" onclick="return ScrollToSection('#aboutme')">About</a>
@@ -152,20 +152,38 @@
     <div class="section_title" id="contact">
       <h1>CONTACT</h1>
       <p>Get in touch:</p>
-      <form>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <form>
 
 
 
-      </form>
-      <a href="https://github.com/lucianodelboni">
-        <img class="icon" src="../static/icons/ico_github.svg" alt="Github Repo" width="60px" height="60px">
-      </a>
-      <br>
-      <a href="https://www.codewars.com/users/lucianodelboni">
-        <img class="icon" src="../static/icons/ico_codewars.svg" alt="Codewars profile" width="60px" height="60px">
-      </a>
+
+            </form>
+          </div>
+          <div class="col">
+            <div>
+              <a href="https://www.linkedin.com/in/lmdelboni/">
+                <img class="icon" src="../static/icons/ico_linkedin.svg" alt="Linkedin profile" width="60px" height="60px">
+              </a>
+            </div>
+            <div class="contact__space">
+              <a href="https://github.com/lucianodelboni">
+                <img class="icon" src="../static/icons/ico_github.svg" alt="Github repositories" width="60px" height="60px">
+              </a>
+            </div>
+            <div  class="contact__space">
+              <a href="https://www.codewars.com/users/lucianodelboni">
+                <img class="icon" src="../static/icons/ico_codewars.svg" alt="Codewars profile" width="60px" height="60px">
+              </a>                  
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <p>This is the footer's foot</p>
+    <p class="d-flex justify-content-center">This is the footer's foot</p>
     
   </div><!--closing main-->
 

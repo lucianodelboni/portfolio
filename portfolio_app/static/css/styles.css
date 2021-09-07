@@ -22,7 +22,7 @@ li{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(100, 100, 100, 0);
+    background-color: hsla(0, 0%, 0%, 0);
 }
 
 .navbar-nav{
@@ -34,8 +34,7 @@ li{
     display: block;
     width: 0;
     height: 2px;
-    background: white;
-    transition: width .3s;
+    background: hsl(23, 100%, 81%, 1);
 
 }
 
@@ -43,8 +42,6 @@ li{
     width: 100%;
     transition: width .3s;
 }
-
-
 
 
 .landing{
@@ -160,6 +157,11 @@ polygon.arrow__top{
     background-size: auto;
     margin: 0px;
 }
+
+.contact__space{
+    margin-top: 4rem;
+}
+
 
 .icon{
     filter: invert(1);
