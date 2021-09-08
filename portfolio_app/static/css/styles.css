@@ -159,9 +159,17 @@ polygon.arrow__top{
 }
 
 .contact__space{
-    margin-top: 4rem;
+    margin: 2rem 0rem;
 }
 
+.contact__space>a{
+    text-decoration: none;
+}
+
+.contact__links{
+    color: orangered;
+    margin-left: 15px;
+}
 
 .icon{
     filter: invert(1);
