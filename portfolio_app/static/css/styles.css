@@ -185,6 +185,7 @@ polygon.arrow__top{
 }
 
 
+
 /* For mobile compatibility*/
 @media (max-width: 768px){
 
@@ -215,4 +216,25 @@ polygon.arrow__top{
         width: 100%;
         text-align: justify;
     }
+}
+
+/*for 1080p 16:9 compatibily*/
+@media (min-width:  992px){
+    
+    #landing, #aboutme, #portfolio, #contact{
+        height: 46rem;
+    }
+    .arrows__animation{
+    top: 680px;
+    }
+
+    .arrows__animation2{
+        top: 1410px;
+    }
+
+    .arrows__animation3{
+        top: 2150px;
+    }
+
+
 }
