@@ -5,7 +5,7 @@ html{
 
 *{
     font-family: 'Noto Sans';
-    color: hsl(0,0%,90%);
+    color: hsl(0,0%,95%);
 }
 
 /*body styling*/
@@ -45,7 +45,7 @@ li{
 
 
 .landing{
-    background: url('../images/landing3.webp');
+    background: url('../images/landing3_old_hd.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -116,7 +116,8 @@ polygon.arrow__top{
 #aboutme{
     width: 100%;
     height: 39rem;
-    background: url('../images/aboutme_bcg.png');
+    background: url('../images/sections_bckg_part1.webp');
+    background: transparent\2;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
@@ -136,6 +137,9 @@ polygon.arrow__top{
 #portfolio{
     width: 100%;
     height: 39rem;
+    background: url('../images/sections_bckg_part2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px;
 }
 
@@ -152,9 +156,9 @@ polygon.arrow__top{
 #contact{
     width: 100%;
     height: 34rem;
-    background-color: darkslateblue;
+    background: url('../images/sections_bckg_part3.webp');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     margin: 0px;
 }
 
@@ -167,8 +171,13 @@ polygon.arrow__top{
 }
 
 .contact__links{
-    color: orangered;
+    color: snow;
     margin-left: 15px;
+}
+
+.contact__links:hover{
+    transition: 0.7s;
+    color: cyan;
 }
 
 .icon{
@@ -176,7 +185,7 @@ polygon.arrow__top{
 }
 
 .icon:hover{
-    transition: 0.6s;
+    transition: 0.5s;
     filter: invert(0.8)
             sepia(0.5)
             saturate(10.5)
