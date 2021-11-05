@@ -17,6 +17,10 @@ li{
     cursor: pointer;
 }
 
+footer{
+    display: block;
+}
+
 .navbar{
     overflow: hidden;
     position: fixed;
@@ -193,6 +197,10 @@ polygon.arrow__top{
             brightness(1);
 }
 
+.footer__space{
+    padding: 0px 10px;
+}
+
 
 
 /* For mobile compatibility*/
@@ -227,14 +235,14 @@ polygon.arrow__top{
     }
 }
 
-/*for 1080p 16:9 compatibily*/
-@media (min-width:  992px){
+/*for 720p 16:9 compatibily*/
+@media (max-width:  992px){
     
     #landing, #aboutme, #portfolio, #contact{
         height: 46rem;
     }
     .arrows__animation{
-    top: 680px;
+        top: 680px;
     }
 
     .arrows__animation2{
