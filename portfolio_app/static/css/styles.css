@@ -17,6 +17,10 @@ li{
     cursor: pointer;
 }
 
+form > div > label{
+    color: indigo;
+}
+
 footer{
     display: block;
 }
@@ -159,6 +163,37 @@ polygon.arrow__top{
     border-radius: 2rem;
 }
 
+.form__style_spacing{
+    padding: 10px 40px 2px;     
+}
+
+.form__style_spacing > input{
+    color:  darkslategrey;
+    margin: 0px 20px 0px 5px;
+    display: inline-block;
+}
+
+#first_name, #last_name{
+    width: 10rem;
+}
+
+#email{
+    width: 30rem;
+}
+
+#subject{
+    width: 29.2rem;
+}
+
+#message{
+    width: 95%;
+    height: 6.5rem;
+}
+
+#submit_button{
+    width: 10rem;
+}
+
 .contact__space{
     margin: 2rem 0rem;
 }
@@ -231,8 +266,12 @@ polygon.arrow__top{
 /*for 1080p 16:9 compatibily*/
 @media (min-width:  1080px){
     
-    #landing, #aboutme, #portfolio, #contact{
+    #landing, #aboutme, #portfolio {
         height: 45rem;
+    }
+
+    #contact{
+        height: 41rem;
     }
     .arrows__animation{
         top: 670px;
