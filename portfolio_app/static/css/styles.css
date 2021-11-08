@@ -166,6 +166,13 @@ polygon.arrow__top{
     margin: 0px;
 }
 
+.form__style{
+    height: 20rem;
+    width: 40rem;
+    background-color: whitesmoke;
+    border-radius: 2rem;
+}
+
 .contact__space{
     margin: 2rem 0rem;
 }
