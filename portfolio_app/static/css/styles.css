@@ -70,20 +70,6 @@ footer{
     transform: translate(-50%, -50%);
 }
 
-.arrows__animation2{
-    position: absolute;
-    left: 50%;
-    top: 1200px;
-    transform: translate(-50%, -50%);
-}
-
-.arrows__animation3{
-    position: absolute;
-    left: 50%;
-    top: 1830px;
-    transform: translate(-50%, -50%);
-}
-
 #three__arrows {
     fill: hsl(0,0%,90%);
     width: 75px;
@@ -226,7 +212,7 @@ polygon.arrow__top{
     }
 
     #landing, #aboutme, #portfolio, #contact{
-        height: 47rem;
+        height: 49rem;
     }
 
     #about__box{
@@ -235,22 +221,14 @@ polygon.arrow__top{
     }
 }
 
-/*for 720p 16:9 compatibily*/
-@media (max-width:  992px){
+/*for 1080p 16:9 compatibily*/
+@media (min-width:  1080px){
     
     #landing, #aboutme, #portfolio, #contact{
-        height: 46rem;
+        height: 45rem;
     }
     .arrows__animation{
-        top: 680px;
-    }
-
-    .arrows__animation2{
-        top: 1410px;
-    }
-
-    .arrows__animation3{
-        top: 2150px;
+        top: 670px;
     }
 
 
