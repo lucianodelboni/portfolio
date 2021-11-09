@@ -178,15 +178,16 @@ polygon.arrow__top{
 }
 
 #email{
-    width: 30rem;
+    width: 29rem;
+    margin: 0px 0px 0px 19px;
 }
 
 #subject{
-    width: 29.2rem;
+    width: 29rem;
 }
 
 #message{
-    width: 95%;
+    width: 94.5%;
     height: 6.5rem;
 }
 
