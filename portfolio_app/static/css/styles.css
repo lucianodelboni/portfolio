@@ -157,7 +157,7 @@ polygon.arrow__top{
 }
 
 .form__style{
-    height: 20rem;
+    height: 25rem;
     width: 40rem;
     background-color: whitesmoke;
     border-radius: 2rem;
@@ -188,7 +188,8 @@ polygon.arrow__top{
 
 #message{
     width: 94.5%;
-    height: 6.5rem;
+    height: 10rem;
+    resize: none;
 }
 
 #submit_button{
