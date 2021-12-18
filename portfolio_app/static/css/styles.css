@@ -4,7 +4,7 @@ html{
 }
 
 *{
-    font-family: 'Noto Sans';
+    font-family: 'Work Sans';
     color: hsl(0,0%,95%);
 }
 
@@ -22,7 +22,7 @@ form > div > label{
 }
 
 footer{
-    display: block;
+    white-space: nowrap;
 }
 
 .navbar{
@@ -215,8 +215,9 @@ polygon.arrow__top{
             brightness(1);
 }
 
-.footer__space{
-    padding: 0px 10px;
+.footer__style{
+    display: inline-block;
+    margin: 0.5rem 1rem;
 }
 
 
