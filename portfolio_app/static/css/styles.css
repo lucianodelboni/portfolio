@@ -117,13 +117,18 @@ polygon.arrow__top{
     margin: 0px;
 }
 
+#about__box{
+    width:45%;
+    text-align:justify;
+}
+
 .section_title>h1{
     padding: 3rem 0rem 1rem 3rem;
     font-weight: bolder;
 }
 
-#about__box{
-    width:40%;
+.subtitle__section{
+    width:85%;
     text-align:justify;
 }
 
@@ -160,18 +165,18 @@ polygon.arrow__top{
     height: 25rem;
     width: 40rem;
     background-color: whitesmoke;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 .form__firstlastname_space{
-    margin: 0.75rem 0rem 0rem 2rem;
+    margin: 0.75rem 0rem 0rem 1.3rem;
     display: inline-block;
     overflow-y: hidden;
-    width: 16.9rem;
+    width: 17.85rem;
 }
 
 .form__elements_space{
-    margin: 0.5rem 2rem;
+    margin: 0.5rem 1.3rem;
 }
 
 #message{
@@ -252,6 +257,26 @@ polygon.arrow__top{
         width: 100%;
         text-align: justify;
     }
+
+    .form__style{
+        height: 30rem;
+        width: 22rem;
+        background-color: whitesmoke;
+        border-radius: 1rem;
+    }
+
+    .form__firstlastname_space{
+        margin: 0.75rem 0rem 0rem 1.3rem;
+        display: inline-block;
+        overflow-y: hidden;
+        width: 19.4rem;
+    }
+
+    .subtitle__section{
+        width:35%;
+        text-align:justify;
+    }
+
 }
 
 /*for 1080p 16:9 compatibily*/
@@ -266,6 +291,10 @@ polygon.arrow__top{
     }
     .arrows__animation{
         top: 670px;
+    }
+        .subtitle__section{
+        width:95%;
+        text-align:justify;
     }
 
 
