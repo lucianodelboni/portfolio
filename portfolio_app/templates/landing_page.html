@@ -16,16 +16,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link"  onclick="return ScrollToSection('#landing')">Home</a>
+                        <a class="nav-link"  href="#landing" onclick="return ScrollToSection('#landing')">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="return ScrollToSection('#aboutme')">About</a>
+                        <a class="nav-link" href="#aboutme" onclick="return ScrollToSection('#aboutme')">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="return ScrollToSection('#portfolio')">Portfolio</a>
+                        <a class="nav-link" href="#portfolio" onclick="return ScrollToSection('#portfolio')">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="return ScrollToSection('#contact')">Contact</a>
+                        <a class="nav-link" href="#contact" onclick="return ScrollToSection('#contact')">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -62,7 +62,7 @@
     <div class="section_title" id="aboutme">
       <h1>ABOUT</h1>
       <br>
-      <div class="container-fluid subtitle__section" id="about__box">
+      <div class="container-fluid" id="about__box">
         <p>I am glad you took some of your valuable time to get to know me better. Believe me, it is really my pleasure. I love making new friends and hearing about experiences and life stories.
         </p>
         <p>
@@ -192,8 +192,12 @@
   <script>
     function ScrollToSection(section){
       document.querySelector(section).scrollIntoView({
-        })
+        });
+      return false
       }
+    $(document).ready(function(){
+      $('body').scrollspy({target: ".navbar", offset: 50});   
+    });
   </script>
     
 {% endblock %}
