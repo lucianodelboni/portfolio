@@ -119,16 +119,16 @@ polygon.arrow__top{
 
 #about__box{
     width:45%;
-    text-align:justify;
+    text-align: justify;
 }
 
 .section_title>h1{
-    padding: 3rem 0rem 1rem 3rem;
+    padding: 3rem 0rem 1rem 1rem;
     font-weight: bolder;
 }
 
 .subtitle__section{
-    width:85%;
+    width:90%;
     text-align:justify;
 }
 
@@ -142,19 +142,20 @@ polygon.arrow__top{
     margin: 0px;
 }
 
-.carousel {
-    width: 720px;
-    height: 360px;
+.carousel-item{
+    background: grey;
+    height: 36rem;
+    position: relative;
 }
 
-  .carousel-caption{
-    padding-bottom: 10px;
-  }
-
+.carousel-inner>.item{
+    width: 100%;
+    z-index: -9;
+}
 
 #contact{
     width: 100%;
-    height: 34rem;
+    height: 36rem;
     background: url('../images/sections_bckg_part3.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,15 +232,6 @@ polygon.arrow__top{
 @media (max-width: 768px){
 
 
-    .carousel{
-        width: 320px;
-        height: 160px;
-    }
-
-    .carousel__wrapper{
-        padding: 3rem 0rem;
-    }
-
     .section_title>h1{
         padding: 2rem 0rem 2rem 1rem;
         font-weight: bolder;
@@ -287,7 +279,7 @@ polygon.arrow__top{
     }
 
     #contact{
-        height: 41rem;
+        height: 42rem;
     }
     .arrows__animation{
         top: 670px;
