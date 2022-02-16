@@ -31,6 +31,7 @@ footer{
     top: 0;
     width: 100%;
     background-color: hsla(0, 0%, 0%, 0);
+    z-index: 999;
 }
 
 .navbar-nav{
@@ -142,15 +143,14 @@ polygon.arrow__top{
     margin: 0px;
 }
 
+.carousel{
+    margin: 10px;
+}
+
 .carousel-item{
     background: grey;
     height: 36rem;
     position: relative;
-}
-
-.carousel-inner>.item{
-    width: 100%;
-    z-index: -9;
 }
 
 #contact{
