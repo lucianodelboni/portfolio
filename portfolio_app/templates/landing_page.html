@@ -62,13 +62,105 @@
       <h1>ABOUT</h1>
       <br>
       <div class="container-fluid" id="about__box">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et gravida magna, et blandit risus. Aenean vitae accumsan nulla. Quisque congue molestie tortor vitae ultrices. Mauris molestie accumsan est, vel tristique libero malesuada vel. Nam rutrum nec ligula ut condimentum. Vivamus blandit id quam nec interdum. Praesent lacinia tellus eros, eu laoreet odio pulvinar sed.
+        <p>
+          I am glad you took some of your valuable time to get to know me better. I am a calm and easy-going person who loves making new friends and hearing about their life stories.
         </p>
         <p>
-          Quisque convallis aliquam sollicitudin. Donec eleifend fringilla sagittis. Nulla ut sapien quis magna feugiat viverra id pretium turpis. Praesent eget vestibulum nibh, gravida maximus quam. Vivamus efficitur quis tellus malesuada elementum. Cras elit diam, accumsan non quam sed, mattis ullamcorper purus. Donec tempor blandit urna, eget iaculis sem congue eu.
+          Sharing experiences bolster imagination and creativity and, as a developer, I undoubtedly can say that there is nothing more satisfying than using computer language to translate these feelings into solutions, which not only solve client demands but also bring ideas to life.
         </p>
         <br>
-        <button class="btn btn-lg btn-outline-light btn-1">Learn More!</button>
+        <button class="btn btn-lg btn-outline-light btn-1" data-bs-toggle="modal" data-bs-target="#aboutme_modal">Learn More!</button>
+
+        <div class="modal fade" id="aboutme_modal" tabindex="-1" aria-labelledby="learn_more_modal">
+          <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="learn_more_modal">More about me!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p><strong>The story of my life</strong></p>
+                <p>
+                  My name is Luciano, and for that many may think I'm italian. Well, I was born in Brazil and I lived most of my life in a city located right in the center of the South America. When growing up, I was mostly interested in making friends, watching cartoons and solving logic puzzles.
+                  <button class="btn btn-outline-info" type="button" data-bs-toggle="collapse" data-bs-target="#lifestory_collapse" aria-expanded="false" aria-controls="lifestory_collapse">...</button>
+                    <div class="collapse" id="lifestory_collapse">
+
+                      </p>
+                      <p>
+                        By the time I turned 10, my family bought our first computer. I became instantly obsessed with that. So that, a year later I already knew how to format it and replace hardware and I/O parts. I would spare any time I have left learning more about computers and browsing the internet in search of more knowledge.
+                      </p>
+                      <p>
+                        When I was 16, I started working with computers' troubleshooting and repair and I still do it to this day. My only clients at the time were friends and family and I was doing it as a hobby. As it grew, I would only improve my skillset.
+                      </p>
+                      <p>
+                        When I finished school, I decided I wanted to make our planet a better place or, at least, help it keep favorable to human existence. That's why I graduated in Environmental Engineering and worked for almost 6 years in this field.
+                      </p>
+                      <p>
+                        Even after all this time working in the field, my passion for Information Technology never faded away. That's why when my wife and I received the invitation to move to Canada, the first thing that crossed my mind was going back to my roots and work with technology.
+                      </p>
+                    </div>
+                      <p><strong>Soft Skills:</strong></p>
+                      <ul>
+                        <li>Problem-Solving</li>
+                        <li>Communication</li>
+                        <li>Creativity</li>
+                        <li>Work Ethic</li>
+                        <li>Interpersonal Skills</li>
+                        <li>Calmness</li>
+                      </ul>
+
+                      <p><strong>Computer Skills:</strong></p>
+                      <ul>
+                        <li>Backend:</li>
+                        <ul>
+                          <li>Python</li>
+                          <li>VBA</li>
+                        </ul>
+                        <li>Framework:</li>
+                        <ul>
+                          <li>Flask</li>
+                          <li>Django</li>
+                        </ul>
+                        <li>Frontend:</li>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JavaScript</li>
+                        </ul>
+                        <li>Database:</li>
+                        <ul>
+                          <li>SQLite</li>
+                          <li>MySQL</li>
+                          <li>Microsoft SQL Server</li>
+                        </ul>
+                        <li>Versioning and Availability:</li>
+                        <ul>
+                          <li>Git</li>
+                          <li>GitHub</li>
+                          <li>DockerHub</li>
+                        </ul>
+                        <li>Operating System:</li>
+                        <ul>
+                          <li>Windows</li>
+                          <li>Linux</li>
+                        </ul>
+                        <li>Other:</li>
+                        <ul>
+                          <li>Photoshop</li>
+                          <li>Microsoft Office</li>
+                          <li>AutoCAD</li>
+                          <li>ArcGIS</li>
+                        </ul>
+                      </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
     
@@ -122,7 +214,7 @@
     <!--Fourth Part - Contact-->
     <div class="section_title" id="contact">
       <h1>CONTACT</h1>
-      <p class="container-fluid subtitle__section">Get in touch:</p>
+      <p class="container-fluid">Get in touch:</p>
       <div class="container-fluid">
         <div class="row">
           <div class="col">
@@ -172,6 +264,12 @@
               </a> 
               <a href="https://www.codewars.com/users/lucianodelboni" class="contact__links">Codewars profile</a>
             </div>
+            <div  class="contact__space">
+              <a href="https://www.codewars.com/users/lucianodelboni">
+                <img class="icon" src="../static/icons/ico_resume.svg" alt="Resume" width="60px" height="60px">
+              </a> 
+              <a href="https://www.codewars.com/users/lucianodelboni" class="contact__links">Download Resume</a>
+            </div>
           </div>
         </div>
       </div>
@@ -179,10 +277,7 @@
 
     <footer class="d-flex justify-content-center">
       <div class="footer__style">
-        <a href="" style="color:white;">Sitemap</a>        
-      </div>
-      <div class="footer__style">
-        <span>©2021 Luciano Martins Delboni</span>        
+        <span>©2022 Luciano Martins Delboni</span>        
       </div>
     </footer>
 
