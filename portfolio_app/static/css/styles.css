@@ -147,10 +147,21 @@ polygon.arrow__top{
     margin: 10px;
 }
 
+.carousel-control-prev, .carousel-control-next{
+    mix-blend-mode: difference;
+}
+
 .carousel-item{
     background: grey;
     height: 36rem;
     position: relative;
+}
+
+.carousel-item>div{
+    background-color: black;
+    margin: 0% 22%;
+    opacity: 0.6;
+    border-radius: 20px;
 }
 
 #contact{
